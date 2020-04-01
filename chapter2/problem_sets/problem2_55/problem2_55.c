@@ -11,7 +11,7 @@ void test_show_bytes(int val) {
 }
 
 int main(void) {
-    int a = 0x12345678;
+    int a = 12345;
     test_show_bytes(a);
     return 0;
 }
