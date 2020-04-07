@@ -1,3 +1,4 @@
 add_subdirectory(problem2_55)
 add_subdirectory(problem2_57)
 add_subdirectory(problem2_58)
+add_subdirectory(problem2_59)
