@@ -1,4 +1,4 @@
-#include "../../include/show_bytes.h"
+#include "show_bytes.h"
 
 void test_show_bytes(short val) {
     double dval = (double) val;
