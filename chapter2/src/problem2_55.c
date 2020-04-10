@@ -1,4 +1,4 @@
-#include "../../include/show_bytes.h"
+#include "show_bytes.h"
 
 void test_show_bytes(int val) {
     int ival = val;
