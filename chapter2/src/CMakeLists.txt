@@ -17,3 +17,6 @@ target_include_directories(problem2_59 PUBLIC ${PROJECT_SOURCE_DIR}/chapter2/inc
 
 add_library(problem2_60 STATIC problem2_60.c)
 target_include_directories(problem2_60 PUBLIC ${PROJECT_SOURCE_DIR}/chapter2/include)
+
+add_library(problem2_61 STATIC problem2_61.c)
+target_include_directories(problem2_61 PUBLIC ${PROJECT_SOURCE_DIR}/chapter2/include)
