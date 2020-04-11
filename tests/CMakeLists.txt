@@ -1,3 +1,0 @@
-add_subdirectory(test_problem2_59)
-add_subdirectory(test_problem2_60)
-add_subdirectory(test_problem2_61)

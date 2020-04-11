@@ -31,8 +31,3 @@ void test_prob2_61_should_passAnyBitIsZeroOnLastByteTest(void) {
 void test_prob2_61_should_failAnyBitIsZeroOnLastByteTest(void) {
     TEST_ASSERT_EQUAL(1, problem2_61(0x12345601));
 }
-
-int main(void) {
-    UNITY_BEGIN();
-    return UNITY_END();
-}

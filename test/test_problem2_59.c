@@ -15,12 +15,3 @@ void test_prob2_59_should_replaceLastByteWithHexFF(void) {
 void test_prob2_59_should_replaceLastByteWithHex00(void) {
     TEST_ASSERT_EQUAL_HEX32(0x00, prob2_59(0x0, 0xFF));
 }
-
-int main(void) {
-    UNITY_BEGIN();
-    RUN_TEST(test_prob2_59_should_replaceLastByteWithHexEC);
-    RUN_TEST(test_prob2_59_should_replaceLastByteWithHexFF);
-    RUN_TEST(test_prob2_59_should_replaceLastByteWithHex00);
-
-    return UNITY_END();
-}
